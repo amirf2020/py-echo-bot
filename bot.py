@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-token =  '226346511:AAEMkGTiny9jiIlpJ_8cLBIVxRucl01zlLU'
+token =  '226346511:AAG4txlW5mjLEED0XqYuMwBGX8vf7DdTkmI'
 bot = telebot.TeleBot(token)
 	
 f = "Bot Firstname: {}".format(bot.get_me().first_name)
